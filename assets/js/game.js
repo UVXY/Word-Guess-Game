@@ -100,6 +100,7 @@ function outcome() {
     } else if (guesses === 0) {
         lost++;
         document.getElementById('loss').innerHTML = lost;
+        alert('You Lost!');
         reset();
     }
 }
